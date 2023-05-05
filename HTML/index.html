@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Vacation Resort</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="style.css">
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">My Vacation Resort</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">Login</a>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+	<header class="jumbotron" style="margin-top: 55px;">
+		<div class="container">
+			<h1>Welcome to My Vacation Resort</h1>
+			<p class="lead">Enjoy a relaxing vacation in our beautiful resort</p>
+			<a class="btn btn-primary btn-lg" href="#rooms" role="button">Book Now</a>
+		</div>
+	</header>
+
+	<main class="container">
+		<section id="about">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>About Our Resort</h2>
+					<p>We are a family-friendly vacation resort located on the beach. Our resort features comfortable rooms, a pool, a spa, and many other amenities to make your stay enjoyable.</p>
+					<a class="btn btn-secondary" href="#rooms" role="button">View Rooms</a>
+				</div>
+				<div class="col-md-6">
+					<img src="https://picsum.photos/id/1027/600/400" alt="Resort" class="img-fluid rounded">
+				</div>
+			</div>
+		</section>
+
+		<section id="rooms">
+			<h2>Our Rooms</h2>
+			<p>We offer a variety of rooms to suit your needs, including standard rooms, suites, and villas. All of our rooms feature comfortable beds, air conditioning, and free Wi-Fi.</p>
+			<a class="btn btn-secondary" href="#amenities" role="button">View Amenities</a>
+			<div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img src="https://picsum.photos/id/1035/300/200" alt="Room" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Standard Room</h5>
+                      <p class="card-text mb-4">Starting at $100/night</p>
+                      <a href="#" class="btn btn-primary btn-block">Book Now</a>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-bed"></i> 1 Queen Bed</small>
+                        <small class="text-muted"><i class="fas fa-users"></i> Sleeps 2</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img src="https://picsum.photos/id/1040/300/200" alt="Room" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Suite</h5>
+                      <p class="card-text mb-4">Starting at $200/night</p>
+                      <a href="#" class="btn btn-primary btn-block">Book Now</a>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-bed"></i> 1 King Bed</small>
+                        <small class="text-muted"><i class="fas fa-users"></i> Sleeps 4</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img src="https://picsum.photos/id/1043/300/200" alt="Room" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title mb-3">Villa</h5>
+                      <p class="card-text mb-4">Starting at $300/night</p>
+                      <a href="#" class="btn btn-primary btn-block">Book Now</a>
+                      <div class="d-flex justify-content-between align-items-center mt-3">
+                        <small class="text-muted"><i class="fas fa-bed"></i> 1 King Bed + 1 Queen Bed</small>
+                        <small class="text-muted"><i class="fas fa-users"></i> Sleeps 6</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+        <section id="amenities">
+            <h2>Our Amenities</h2>
+            <p>We offer many amenities to make your stay enjoyable, including a pool, a spa, a fitness center, and more. </p>
+            <a class="btn btn-secondary" href="#contact" role="button">Contact Us</a>
+            <div class="row my-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/id/1038/300/200" alt="Pool" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pool</h5>
+                            <p class="card-text">Relax by our pool and enjoy the sunshine</p>
+                            <a href="#" class="stretched-link btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/id/1025/300/200" alt="Spa" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Spa</h5>
+                            <p class="card-text">Relax and rejuvenate in our spa</p>
+                            <a href="#" class="stretched-link btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/id/1012/300/200" alt="Fitness Center" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Center</h5>
+                            <p class="card-text">Stay in shape during your stay at our fitness center</p>
+                            <a href="#" class="stretched-link btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or comment? Contact us using the form below and we'll get back to you as soon as possible.</p>
+            <form id="contact-form">
+                <div class="form-group mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary px-4">Send Message</button>
+                </div>
+              </form>
+              
+        </section>
+        <footer>
+            <p>&copy; 2023 Vacation Resort</p>
+        </footer>
+    
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>
