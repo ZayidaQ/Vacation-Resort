@@ -36,34 +36,62 @@
                 <a class="nav-link" href="./login.html">Login</a>
               </li>
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+            <form class="form-inline my-2 my-lg-0">
+              <div class="input-group">
+                <label for="search-input" class="sr-only">Search</label>
+                <input class="form-control mr-sm-2" type="text" id="search-input" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </div>
+              </div>
             </form>
         </div>
-    </nav>
+  </nav>
 
-	<header class="jumbotron" style="margin-top: 50px;">
-		<div class="container">
-			<h1>Welcome to Emerald Bay Resort</h1>
-			<p class="lead">Enjoy a relaxing vacation in our beautiful resort</p>
-			<button class="my-btn">Click me!</button>
-
-		</div>
-	</header>
+    <header class="jumbotron" style="margin-top: 50px;">
+      <div class="container">
+        <h1>Welcome&nbsp;to Emerald&nbsp;Bay&nbsp;Resort</h1>
+        <p class="lead">Enjoy&nbsp;a&nbsp;relaxing&nbsp;vacation in&nbsp;our&nbsp;beautiful&nbsp;resort</p>
+        <a href="booking_page.html"><button class="my-btn">Book Now</button></a>
+      </div>
+    </header>
 
 	<main class="container">
 		<section id="about">
-			<div class="row">
-				<div class="col-md-6">
-					<h2>About Our Resort</h2>
-					<p>We are a family-friendly vacation resort located on the beach. Our resort features comfortable rooms, a pool, a spa, and many other amenities to make your stay enjoyable.</p>
-				</div>
-				<div class="col-md-6">
-					<img src="https://picsum.photos/id/1027/600/400" alt="Resort" class="img-fluid rounded">
-				</div>
-			</div>
+			<div class="about-section">
+        <h2>About Our Resort</h2>
+        <p>Welcome to our beautiful resort, located in the heart of paradise. We are committed to providing our guests with an unforgettable vacation experience, full of relaxation, adventure, and luxury.</p>
+        <p>Our resort features world-class accommodations, stunning beaches, delicious dining options, and a wide range of activities and amenities for all ages.</p>
+      </div>
 		</section>
+
+    <section id="photos" style="margin-top: 50px;">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/id/1059/600/400" alt="Photo 1" class="img-fluid">
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/id/1064/600/400" alt="Photo 2" class="img-fluid rounded">
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/id/1071/600/400" alt="Photo 3" class="img-fluid rounded">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="https://picsum.photos/id/1059/600/400" alt="Photo 1" class="img-fluid rounded">
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/id/1064/600/400" alt="Photo 2" class="img-fluid rounded">
+        </div>
+        <div class="col-md-4">
+          <img src="https://picsum.photos/id/1071/600/400" alt="Photo 3" class="img-fluid rounded">
+        </div>
+      </div>
+    </section>
+    
+    
 
 		<section id="rooms">
 			<h2>Our Rooms</h2>
@@ -187,6 +215,8 @@
             </div>
             
         </section>
+
+        <hr>
     
         <section id="contact">
             <h2>Contact Us</h2>
@@ -210,6 +240,7 @@
               </form>
               
         </section>
+  </main>
         <footer>
             <p>&copy; 2023 Vacation Resort</p>
         </footer>
