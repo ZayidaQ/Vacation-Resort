@@ -18,7 +18,7 @@ button.btn-outline-primary:hover {
 	background-color: #f2f2f2;
 	color: #fff;
 }
-  
+
 /*----- Header -----*/
 header.jumbotron {
 	margin-top: 100px;
@@ -26,10 +26,16 @@ header.jumbotron {
     background-size: cover;
     background-position: center;
     height: 400px;
-	color: #ffffff;
     text-shadow: 2px 2px #000000; 
 	}
 
+header.jumbotron h1 {
+	color: #ffffff;
+}
+
+header.jumbotron p {
+	color: #cecece;
+}
 
 header.jumbotron h1, header.jumbotron p {
 	text-align: center;
@@ -44,7 +50,7 @@ header.jumbotron button {
     padding: 10px 30px;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #ffffff;
+    background-color: #fff7f7;
     color: #333333;
     border: none;
     border-radius: 5px;
@@ -52,6 +58,8 @@ header.jumbotron button {
     letter-spacing: 2px;
 	}
 
+
+/*----- */
 .container {
 	margin-top: 50px;
 	}
